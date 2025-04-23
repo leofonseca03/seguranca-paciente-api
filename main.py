@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 class Evento(BaseModel):
     descricao: str
 
-app = FastAPI(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)
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
